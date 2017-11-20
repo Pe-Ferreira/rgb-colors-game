@@ -4,6 +4,8 @@ body {
 	font-family: "Montserrat", "Avenir";
 }
 
+/*deixar essa classe elástica para enfileirar 4 squares ou mudar o JS
+para forçar uma adição de classe e criar essa nova classe*/
 .square {
 	width: 30%;
 	padding-bottom: 30%;
@@ -45,9 +47,11 @@ h1 {
 	font-size: 200%;
 }
 
+/*Falta regular a centralização do texto*/
+/*Bugou depois da inclusão do botão HARD*/
 #message {
 	display: inline-block;
-	width: 20%;
+	width: 25%;
 }
 button {
 	border: none;
